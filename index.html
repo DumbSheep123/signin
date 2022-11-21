@@ -1,445 +1,942 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-	<head id="Head1" runat="server"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
- 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta  property="og:title" content="myMPS Classroom" />
-        <meta  property="og:description" content="Welcome to MPS, a 22nd millennium terrible learning environment specifically designed to mess with the needs of staff, students, and gangstas of the community to give you the absolute worst experience!! " />
-	<meta  property="og:image" content="https://dumbsheep123.github.io/signin/MPS.svg">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://dumbsheep123.github.io/signin/">
-	<meta property="og:title" content="myMPS Classroom">
-	<meta property="og:description" content="Welcome to MPS, a 22nd-millennium terrible learning environment specifically designed to mess with the needs of staff, students, and gangstas of the community to give you the absolute worst experience!">
-	<meta property="og:image" content="https://dumbsheep123.github.io/signin/MPS.svg">
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="https://dumbsheep123.github.io/signin/">
-	<meta property="twitter:title" content="myMPS Classroom">
-	<meta property="twitter:description" content="Welcome to MPS, a 22nd-millennium terrible learning environment specifically designed to mess with the needs of staff, students, and gangstas of the community to give you the absolute worst experience!">
-	<meta property="twitter:image" content="https://dumbsheep123.github.io/signin/MPS.svg">
-	<!-- https://images.squarespace-cdn.com/content/v1/5dd409b4699a1b3c39b79e9d/1594587737493-O02S51PMMPJ092XGYYXK/Infants_3.jpg?format=2500w -->
-	<!-- http://www.washingtonpost.com/news/parenting/wp-content/uploads/sites/16/2016/10/iStock_80173953_LARGE.jpg -->	
-	<title>myMPS Classroom</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="myMPS Classroom" />
+    <meta
+      property="og:description"
+      content="Welcome to MPS, a 22nd millennium terrible learning environment specifically designed to mess with the needs of staff, students, and gangstas of the community to give you the absolute worst experience!! "
+    />
+    <meta
+      property="og:image"
+      content="https://dumbsheep123.github.io/signin/MPS.svg"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dumbsheep123.github.io/signin/" />
+    <meta property="og:title" content="myMPS Classroom" />
+    <meta
+      property="og:description"
+      content="Welcome to MPS, a 22nd-millennium terrible learning environment specifically designed to mess with the needs of staff, students, and gangstas of the community to give you the absolute worst experience!"
+    />
+    <meta
+      property="og:image"
+      content="https://dumbsheep123.github.io/signin/MPS.svg"
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://dumbsheep123.github.io/signin/"
+    />
+    <meta property="twitter:title" content="myMPS Classroom" />
+    <meta
+      property="twitter:description"
+      content="Welcome to MPS, a 22nd-millennium terrible learning environment specifically designed to mess with the needs of staff, students, and gangstas of the community to give you the absolute worst experience!"
+    />
+    <meta
+      property="twitter:image"
+      content="https://dumbsheep123.github.io/signin/MPS.svg"
+    />
+    <!-- https://images.squarespace-cdn.com/content/v1/5dd409b4699a1b3c39b79e9d/1594587737493-O02S51PMMPJ092XGYYXK/Infants_3.jpg?format=2500w -->
+    <!-- http://www.washingtonpost.com/news/parenting/wp-content/uploads/sites/16/2016/10/iStock_80173953_LARGE.jpg -->
+    <title>myMPS Classroom</title>
 
- 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-	<link rel="stylesheet" href="https://www.montgomeryschoolsmd.org/global/master-pages/css/main.css">
-	<link rel="stylesheet" href="https://www.montgomeryschoolsmd.org/global/master-pages/css/elements.css">
-	<link rel="icon" href="./MPS.svg" sizes="220x220" type="image/svg+xml">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="https://www.montgomeryschoolsmd.org/global/master-pages/bootstrap-4.1.0/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://www.montgomeryschoolsmd.org/global/master-pages/css/mdb.min.css" />
-	<link rel="stylesheet" href="https://www.montgomeryschoolsmd.org/global/master-pages/css/global.css" />	 
+    <link
+      rel="stylesheet"
+      href="https://www.montgomeryschoolsmd.org/global/master-pages/css/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.montgomeryschoolsmd.org/global/master-pages/css/elements.css"
+    />
+    <link rel="icon" href="./MPS.svg" sizes="220x220" type="image/svg+xml" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.montgomeryschoolsmd.org/global/master-pages/bootstrap-4.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.montgomeryschoolsmd.org/global/master-pages/css/mdb.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.montgomeryschoolsmd.org/global/master-pages/css/global.css"
+    />
+  </head>
 
+  <body>
+    <audio id="loadSound" volume="0.3">
+      <source src="./sus.mp3" type="audio/mpeg" />
+      <source src="./sus.wav" type="audio/wav" />
+      <source src="./sus.ogg" type="audio/ogg" />
+    </audio>
+  </body>
 
-	</head>
+  <body onclick="document.getElementById('loadSound').play()">
+    <style>
 
-	<body>	
-	<audio id="loadSound" volume="0.3">
-        <source src="./sus.mp3" type="audio/mpeg">
-	<source src="./sus.wav"	type="audio/wav">
-	<source src="./sus.ogg" type="audio/ogg">
-	</audio>
-	
-	</body>
-	
-	
-	<body onclick="document.getElementById('loadSound').play()">
+      html {
+            cursor: url('https://www.linkpicture.com/q/cursor.cur'), default;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            font-family: 'Bebas Neue', sans-serif;
+            color: white;
+        }
+    </style>
 
-	<style>	
-		
-		html {
-        cursor: url('https://www.linkpicture.com/q/cursor.cur'), default;
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        font-family: 'Bebas Neue', sans-serif;
-        color: white;
-    }
-		</style>
-		
-	<style> 
-		html {
-  "icons": [
-    { "src": "/icon-192.png", "type": "image/svg+xml", "sizes": "192x192" },
-    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" },
-    { "src": "/icon-svg.svg", "type": 			
-  ]
-}
-		</style>
-	
-<header class="container-fluid">
-	<div class="row mb-3">
-		<div class="col-lg-6 mt-3 pl-5 hide-mobile">
-			<h4 class="small logo dark-gray-text mt-0"><span class="dark-gray-border">It's The Law, You <em>Must</em> Come</span></h4>
-			<a href="#"><h1 class="logo h1-responsive mb-0">Montgomery Public Schools</h1></a>
-			<h4 class="logo small dark-gray-text mt-0"><span><i>We Know You Don't Like Coming</i></span></h4>
-		</div>
-		 <div class="col-lg-6"></div>	
-	</div>
-	<div class="row" style="background:#323e49;">
-	
-         <div class=" mobile-nav">
-            <div id="full-nav-container">
-                <a id="nav-toggle" style="cursor: pointer">
-                    <div id="btn-menu"><span></span></div>
-                    <p class="hide-mobile hide-tablet">Full Menu</p>
-                </a>
-                <div id="full-nav" class="hide-full-menu  container ">
-                    <div class="row justify-content-md-center">
-                        <div class="col-lg-8">
-                     
-				<ul class="menuList mt-5" style="display: none;">
-				<li><a href="#" aria-label="Home">Home</a></li>
-				<li><a href="#" aria-label="About Us">About Us </a><ul class="nav-submenu">
-				<li><a href="#" aria-label="About Us">MPS Highlights</a></li>
-				<li><a href="#" aria-label="About Us">Mission and Vision</a></li>
-				<li class="move"><a href="#" aria-label="Strategic Planning Framework">Strategic Planning Framework</a></li>
-				<li class="move"><a href="#" aria-label="School statistics &amp; Test results">School Statistics &amp; Test Results </a></li>
-				<li><a href="#" aria-label="data Dashboards">Data Dashboards </a></li>
-				<li><a href="#" aria-label="Operating Budget">Operating Budget </a></li>
-				<li><a href="#" aria-label="Capital Budget">Capital Budget </a></li>
-				<li><a href="#" aria-label="Annual Report">Annual Report </a></li>
-				<li><a href="#" aria-label="Research and Reports">Research and Reports </a></li>
-				<li><a href="#" aria-label="Contact us">Contact us </a></li>
-				</ul>
-				</li>
-				<li><a href="#">Schools</a><ul class="nav-submenu">
-				<li><a href="#">Find a School</a></li>
-				<li><a href="#" aria-label="Bus Routes">Bus Routes </a></li>
-				<li><a href="#" aria-label="How to enroll">How to Enroll </a></li>
-				<li><a href="#" aria-label="School Assignment Tool">School Assignment Tool</a></li>
-				<li><a href="#" aria-label="Office of School Support and Improvement">Office of School Support and Improvement</a></li>
-				<li><a href="#" aria-label="Alternative Programs">Alternative Programs </a></li>
-				<li><a href="#" aria-label="Lunch Menus">Lunch Menus</a></li>
-				</ul>
-				</li>
-				<li><a href="#" aria-label=" Students">Students</a><ul class="nav-submenu">
-				<li><a href="#" aria-label=" Students">Information for Students</a></li>
-				<li><a href="#" aria-label="MyMPS Portal">MyMPS Portal</a></li>
-				<li><a href="#" aria-label="Course Bulletin">Course Bulletin </a></li>
-				<li><a href="#" aria-label="College &amp; Career Center">College &amp; Career Center </a></li>
-				<li><a href="#" aria-label="Career Readiness for Students">Career Readiness for Students</a></li>
-				<li><a href="#" aria-label="Athletics">Athletics</a></li>
-				<li><a href="#" aria-label="Homework Hotline Live">Homework Hotline Live </a></li>
-				<li><a href="#" aria-label="Student Service Learning">Student Service Learning </a></li>
-				<li><a href="#" aria-label="Student Support">Student Support </a></li>
-				</ul>
-				</li>
-				<li><a href="#" aria-label="Parents ">Parents</a><ul class="nav-submenu">
-				<li><a href="#" aria-label="Parents ">Information for Parents</a></li>
-				<li><a href="#" aria-label="How to Enroll">How to Enroll </a></li>
-				<li><a href="#" aria-label="Bus Routes">Bus Routes </a></li>
-				<li><a href="#" aria-label="Athletics">Athletics</a></li>
-				<li><a href="#" aria-label="Forms">Forms</a></li>
-				<li><a href="#" aria-label="Lunch Menus">Lunch Menus </a></li>
-				<li><a href="#" aria-label="School Safety">School Safety </a></li>
-				<li><a href="#" aria-label="Parent Academy">Parent Academy </a></li>
-				<li><a href="#" aria-label="Naviance College &amp;amp; Career Planning" target="_blank">Naviance College &amp; Career Planning</a></li>
-				</ul>
-				</li>
-				<li><a href="#" aria-label="ACADEMICS">Academics </a><ul class="nav-submenu">
-				<li><a href="#" aria-label="ACADEMICS">Curriculum Homepage</a></li>
-				<li><a href="#" aria-label="Subject Areas">Subject Areas </a></li>
-				<li><a href="#" aria-label="Subject Areas">Career Readiness </a></li>
-				<li><a href="#" aria-label="Magnet Programs">Magnet Programs </a></li>
-				<li><a href="#" aria-label="Signature Programs ">Signature Programs </a></li>
-				<li><a href="#" aria-label="Consortia Programs">Consortia Programs </a></li>
-				<li><a href="#" aria-label="Special Education">Special Education </a></li>
-				<li><a href="#" aria-label="Immersion">Language Immersion</a></li>
-				</ul>
-				</li>
-				<li><a href="#">Staff </a><ul class="nav-submenu  move-top">
-				<li><a href="#">Staff Homepage</a></li>
-				<li><a href="#" aria-label="Staff Directory">Staff Directory </a></li>
-				<li><a href="#" aria-label="Benefits and Pay">Benefits and Pay </a></li>
-				<li><a href="#" aria-label="Forms">Forms</a></li>
-				<li><a href="#">LABEL<span style="text-transform: lowercase;">y</span>MPS </a></li>
-				<li><a href="#" aria-label="ePaystub"><span style="text-transform: lowercase;">e</span>Paystub</a></li>
-				<li><a href="#" aria-label="Check e-mail">Check e-mail (Outlook 365) </a></li>
-				<li><a href="#" aria-label="Call a Substitute">Call a Substitute </a></li>
-				<li><a href="#" aria-label="Training">Training </a></li>
-				<li><a href="#" aria-label="Help Desk">Help Desk </a></li>
-				<li><a href="#" aria-label="The Bulletin">The Bulletin </a></li>
-				<li><a href="#" aria-label="Quick Notes">Quick Notes </a></li>
-				</ul>
-				</li>
-				<li><a href="#">Board of Education </a><ul class="nav-submenu move-top">
-				<li><a href="#">Board of Education </a></li>
-				<li><a href="#" aria-label="Members">Members</a></li>
-				<li><a href="#" aria-label="Vision, Mission, Core Values">Vision, Mission, Core Values</a></li>
-				<li><a href="#" aria-label="Board Blog">Board Blog</a></li>
-				<li><a href="#">Search Board Materials</a></li>
-				<li><a href="#" aria-label="Meetings">Meetings</a></li>
-				<li><a href="#" aria-label="Meeting Videos">Meeting Videos</a></li>
-				<li><a href="#" aria-label="Committees">Committees</a></li>
-				<li><a href="#" aria-label="Legislation">Legislation and Advocacy</a></li>
-				<li><a href="#" aria-label="Policies">Policies</a></li>
-				<li><a href="#" aria-label="Advocacy">Advocacy</a></li>
-				<li><a href="#" aria-label="Public Participation">Public Participation</a></li>
-				<li><a href="#" aria-label="Auditing">Internal Audit Unit</a></li>
-				<li><a href="#">MPS Audits</a></li>
-				<li><a href="#">Other Audit Reports</a></li>
-				<li><a href="#">Advisory Committees</a></li>
-				</ul>
-				</li>
-				<li><a href="#">Superintendent </a></li>
-				<li><a href="#">Careers </a><ul class="nav-submenu">
-				<li><a href="#">Careers </a></li>
-				<li><a href="#" aria-label="Recruiting Calendar">Recruiting Calendar</a></li>
-				<li><a href="#" aria-label="About Our Hiring Process">About Our Hiring Process</a></li>
-				<li><a href="#" aria-label="Search Jobs">Search Jobs </a></li>
-				<li><a href="#" aria-label="Current Employees-Login">Current Employees-Login </a></li>
-				<li><a href="#" aria-label="Office of Human Resources and Development">Office of Human Resources and Development</a></li>
-				<li><a href="#" aria-label="Fingerprinting Schedule">Fingerprinting Schedule</a></li>
-				</ul>
-				</li>
-				<li><a href="#" title="Teach For MPS" target="_blank">Teach For MPS</a></li>
-				<li><a href="#">Contact MPS</a></li>
-				<li class="hide-desktop"><a id="staff-dir" href="#">Staff Directory </a></li>
-				</ul>
-				<div class="mt-2 mb-5 hide-desktop hide-tablet"><a href="#" target="_blank" aria-label="facebook" class="btn-floating btn-sm mdb-color bg-light-cyan z-depth-1 smaller waves-effect waves-light"><em class="fa fa-2x  fa-facebook dark-blue-text"></em></a><a href="#" target="_blank" aria-label="twitter" class="btn-floating btn-sm mdb-color bg-light-cyan z-depth-1 smaller waves-effect waves-light"><em class="fa fa-2x fa-twitter dark-blue-text"></em></a><a type="button" href="#" aria-label="youtube" target="_blank" class="btn-floating btn-sm mdb-color bg-light-cyan z-depth-1 smaller waves-effect waves-light"><em class="fa fa-youtube  dark-blue-tex"></em></a><a type="button" href="#" aria-label="flickr" target="_blank" class="btn-floating btn-sm mdb-color bg-light-cyan z-depth-1 smaller waves-effect waves-light"><em class="fa fa-flickr dark-blue-tex"></em></a></div>
-                        </div>
-                    </div>
+    <style>
+      		html {
+        "icons": [
+          { "src": "/icon-192.png", "type": "image/svg+xml", "sizes": "192x192" },
+          { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" },
+          { "src": "/icon-svg.svg", "type":
+        ]
+      }
+    </style>
+
+    <header class="container-fluid">
+      <div class="row mb-3">
+        <div class="col-lg-6 mt-3 pl-5 hide-mobile">
+          <h4 class="small logo dark-gray-text mt-0">
+            <span class="dark-gray-border"
+              >It's The Law, You <em>Must</em> Come</span
+            >
+          </h4>
+          <a href="#"
+            ><h1 class="logo h1-responsive mb-0">
+              Montgomery Public Schools
+            </h1></a
+          >
+          <h4 class="logo small dark-gray-text mt-0">
+            <span><i>We Know You Don't Like Coming</i></span>
+          </h4>
+        </div>
+        <div class="col-lg-6"></div>
+      </div>
+      <div class="row" style="background:#323e49;">
+        <div class="mobile-nav">
+          <div id="full-nav-container">
+            <a id="nav-toggle" style="cursor: pointer">
+              <div id="btn-menu"><span></span></div>
+              <p class="hide-mobile hide-tablet">Full Menu</p>
+            </a>
+            <div id="full-nav" class="hide-full-menu container">
+              <div class="row justify-content-md-center">
+                <div class="col-lg-8">
+                  <ul class="menuList mt-5" style="display: none;">
+                    <li><a href="#" aria-label="Home">Home</a></li>
+                    <li>
+                      <a href="#" aria-label="About Us">About Us </a>
+                      <ul class="nav-submenu">
+                        <li>
+                          <a href="#" aria-label="About Us">MPS Highlights</a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="About Us"
+                            >Mission and Vision</a
+                          >
+                        </li>
+                        <li class="move">
+                          <a href="#" aria-label="Strategic Planning Framework"
+                            >Strategic Planning Framework</a
+                          >
+                        </li>
+                        <li class="move">
+                          <a
+                            href="#"
+                            aria-label="School statistics &amp; Test results"
+                            >School Statistics &amp; Test Results
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="data Dashboards"
+                            >Data Dashboards
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Operating Budget"
+                            >Operating Budget
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Capital Budget"
+                            >Capital Budget
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Annual Report"
+                            >Annual Report
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Research and Reports"
+                            >Research and Reports
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Contact us">Contact us </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Schools</a>
+                      <ul class="nav-submenu">
+                        <li><a href="#">Find a School</a></li>
+                        <li>
+                          <a href="#" aria-label="Bus Routes">Bus Routes </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="How to enroll"
+                            >How to Enroll
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="School Assignment Tool"
+                            >School Assignment Tool</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            aria-label="Office of School Support and Improvement"
+                            >Office of School Support and Improvement</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Alternative Programs"
+                            >Alternative Programs
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Lunch Menus">Lunch Menus</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" aria-label=" Students">Students</a>
+                      <ul class="nav-submenu">
+                        <li>
+                          <a href="#" aria-label=" Students"
+                            >Information for Students</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" aria-label="MyMPS Portal">MyMPS Portal</a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Course Bulletin"
+                            >Course Bulletin
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="College &amp; Career Center"
+                            >College &amp; Career Center
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Career Readiness for Students"
+                            >Career Readiness for Students</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Athletics">Athletics</a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Homework Hotline Live"
+                            >Homework Hotline Live
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Student Service Learning"
+                            >Student Service Learning
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Student Support"
+                            >Student Support
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" aria-label="Parents ">Parents</a>
+                      <ul class="nav-submenu">
+                        <li>
+                          <a href="#" aria-label="Parents "
+                            >Information for Parents</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" aria-label="How to Enroll"
+                            >How to Enroll
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Bus Routes">Bus Routes </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Athletics">Athletics</a>
+                        </li>
+                        <li><a href="#" aria-label="Forms">Forms</a></li>
+                        <li>
+                          <a href="#" aria-label="Lunch Menus">Lunch Menus </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="School Safety"
+                            >School Safety
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Parent Academy"
+                            >Parent Academy
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            aria-label="Naviance College &amp;amp; Career Planning"
+                            target="_blank"
+                            >Naviance College &amp; Career Planning</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" aria-label="ACADEMICS">Academics </a>
+                      <ul class="nav-submenu">
+                        <li>
+                          <a href="#" aria-label="ACADEMICS"
+                            >Curriculum Homepage</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Subject Areas"
+                            >Subject Areas
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Subject Areas"
+                            >Career Readiness
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Magnet Programs"
+                            >Magnet Programs
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Signature Programs "
+                            >Signature Programs
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Consortia Programs"
+                            >Consortia Programs
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Special Education"
+                            >Special Education
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Immersion"
+                            >Language Immersion</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Staff </a>
+                      <ul class="nav-submenu move-top">
+                        <li><a href="#">Staff Homepage</a></li>
+                        <li>
+                          <a href="#" aria-label="Staff Directory"
+                            >Staff Directory
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Benefits and Pay"
+                            >Benefits and Pay
+                          </a>
+                        </li>
+                        <li><a href="#" aria-label="Forms">Forms</a></li>
+                        <li>
+                          <a href="#"
+                            >LABEL<span style="text-transform: lowercase;"
+                              >y</span
+                            >MPS
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="ePaystub"
+                            ><span style="text-transform: lowercase;">e</span
+                            >Paystub</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Check e-mail"
+                            >Check e-mail (Outlook 365)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Call a Substitute"
+                            >Call a Substitute
+                          </a>
+                        </li>
+                        <li><a href="#" aria-label="Training">Training </a></li>
+                        <li>
+                          <a href="#" aria-label="Help Desk">Help Desk </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="The Bulletin"
+                            >The Bulletin
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Quick Notes">Quick Notes </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Board of Education </a>
+                      <ul class="nav-submenu move-top">
+                        <li><a href="#">Board of Education </a></li>
+                        <li><a href="#" aria-label="Members">Members</a></li>
+                        <li>
+                          <a href="#" aria-label="Vision, Mission, Core Values"
+                            >Vision, Mission, Core Values</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Board Blog">Board Blog</a>
+                        </li>
+                        <li><a href="#">Search Board Materials</a></li>
+                        <li><a href="#" aria-label="Meetings">Meetings</a></li>
+                        <li>
+                          <a href="#" aria-label="Meeting Videos"
+                            >Meeting Videos</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Committees">Committees</a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Legislation"
+                            >Legislation and Advocacy</a
+                          >
+                        </li>
+                        <li><a href="#" aria-label="Policies">Policies</a></li>
+                        <li><a href="#" aria-label="Advocacy">Advocacy</a></li>
+                        <li>
+                          <a href="#" aria-label="Public Participation"
+                            >Public Participation</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Auditing"
+                            >Internal Audit Unit</a
+                          >
+                        </li>
+                        <li><a href="#">MPS Audits</a></li>
+                        <li><a href="#">Other Audit Reports</a></li>
+                        <li><a href="#">Advisory Committees</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Superintendent </a></li>
+                    <li>
+                      <a href="#">Careers </a>
+                      <ul class="nav-submenu">
+                        <li><a href="#">Careers </a></li>
+                        <li>
+                          <a href="#" aria-label="Recruiting Calendar"
+                            >Recruiting Calendar</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" aria-label="About Our Hiring Process"
+                            >About Our Hiring Process</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Search Jobs">Search Jobs </a>
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Current Employees-Login"
+                            >Current Employees-Login
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            aria-label="Office of Human Resources and Development"
+                            >Office of Human Resources and Development</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" aria-label="Fingerprinting Schedule"
+                            >Fingerprinting Schedule</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" title="Teach For MPS" target="_blank"
+                        >Teach For MPS</a
+                      >
+                    </li>
+                    <li><a href="#">Contact MPS</a></li>
+                    <li class="hide-desktop">
+                      <a id="staff-dir" href="#">Staff Directory </a>
+                    </li>
+                  </ul>
+                  <div class="mt-2 mb-5 hide-desktop hide-tablet">
+                    <a
+                      href="#"
+                      target="_blank"
+                      aria-label="facebook"
+                      class="btn-floating btn-sm mdb-color bg-light-cyan z-depth-1 smaller waves-effect waves-light"
+                      ><em class="fa fa-2x fa-facebook dark-blue-text"></em></a
+                    ><a
+                      href="#"
+                      target="_blank"
+                      aria-label="twitter"
+                      class="btn-floating btn-sm mdb-color bg-light-cyan z-depth-1 smaller waves-effect waves-light"
+                      ><em class="fa fa-2x fa-twitter dark-blue-text"></em></a
+                    ><a
+                      type="button"
+                      href="#"
+                      aria-label="youtube"
+                      target="_blank"
+                      class="btn-floating btn-sm mdb-color bg-light-cyan z-depth-1 smaller waves-effect waves-light"
+                      ><em class="fa fa-youtube dark-blue-tex"></em></a
+                    ><a
+                      type="button"
+                      href="#"
+                      aria-label="flickr"
+                      target="_blank"
+                      class="btn-floating btn-sm mdb-color bg-light-cyan z-depth-1 smaller waves-effect waves-light"
+                      ><em class="fa fa-flickr dark-blue-tex"></em
+                    ></a>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
 
-            <nav id="nav-wrapper" class="hm-white-strong" style="border-top:0;">
-                <a class="hide-desktop hide-tablet" href="#">
-                    <h1 class="logo h1-responsive">Montgomery County Public Schools</h1>
+          <nav id="nav-wrapper" class="hm-white-strong" style="border-top:0;">
+            <a class="hide-desktop hide-tablet" href="#">
+              <h1 class="logo h1-responsive">
+                Montgomery County Public Schools
+              </h1>
+            </a>
+            <ul class="top-menuList">
+              <li id="home" class="waves-effect waves-light">
+                <a href="#" aria-label="Home">Home</a>
+              </li>
+              <li class="waves-effect waves-light">
+                <a href="#" aria-label="About Us">About Us </a>
+              </li>
+              <li class="waves-effect waves-light"><a href="#">Schools </a></li>
+              <li class="waves-effect waves-light">
+                <a href="#" aria-label="Parents ">Parents</a>
+              </li>
+              <li class="waves-effect waves-light">
+                <a href="#" aria-label="Students"> Students</a>
+              </li>
+              <li class="waves-effect waves-light">
+                <a href="#" aria-label="Academics"> Academics</a>
+              </li>
+              <li class="waves-effect waves-light">
+                <a href="#" aria-label="Staff Homepage">Staff</a>
+              </li>
+              <li class="waves-effect waves-light">
+                <a href="#" aria-label="Board of Education"
+                  >Board of Education
                 </a>
-                <ul class="top-menuList">
-				<li id="home" class=" waves-effect waves-light"><a href="#" aria-label="Home">Home</a></li>
-				<li class=" waves-effect waves-light"><a href="#" aria-label="About Us">About Us </a></li>
-				<li class=" waves-effect waves-light"><a href="#">Schools </a></li>
-				<li class=" waves-effect waves-light"><a href="#" aria-label="Parents ">Parents</a></li>
-				<li class=" waves-effect waves-light"><a href="#" aria-label="Students"> Students</a></li>
-				<li class=" waves-effect waves-light"><a href="#" aria-label="Academics"> Academics</a></li>
-				<li class=" waves-effect waves-light"><a href="#" aria-label="Staff Homepage">Staff</a></li>
-				<li class=" waves-effect waves-light"><a href="#" aria-label="Board of Education">Board of Education </a></li>
-				<li class=" waves-effect waves-light"><a href="#">Superintendent </a></li>
-				<li class="hide-tablet hide-small-screens waves-effect waves-light"><a href="#" title="Teach For MPS" target="_blank">Teach For MPS</a></li>
-				<li class="hide-tablet   waves-effect waves-light"><a href="#">Careers</a></li>
-				
-				<li class=" waves-effect waves-light staff-dir "><a id="staff-dir" href="#" data-toggle="modal" data-target="#StaffDirModal"><em class="hide-tablet fa fa-address-book-o fa-fw fa-2x" aria-hidden="true"></em> Staff Directory </a></li>
-				</ul>	
-                <!--STAFF Directory Popup--> 
-                <!-- Modal -->
-                <div class="modal fade py-3" id="StaffDirModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog  modal-lg  modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h2 class="mb-1">Find a staff member </h2>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">×</span>
-                                </button>
-                            </div>
-                            <div class="modal-body my-1">
-                                 <input type="textbox" id="txtSearchStaff" placeholder="Enter First or Last Name" style="background-color: transparent;border: none;    border-bottom-color: currentcolor;    border-bottom-style: none;    border-bottom-width: medium;border-bottom: 1px solid #bdbdbd;border-radius: 0;outline: 0;height: 2.1rem;width:70%;font-size: 1rem;box-shadow: none;box-sizing: content-box;-webkit-transition: all .3s;transition: all .3s;">  <button type="button" class="btn btn-md btn-danger btSearchStaff waves-effect waves-light" data-dismiss="modal"><i class="fa fa-search ml-2" aria-hidden="true"></i> Search</button>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="#" type="button" class="btn btn-md btn-primary btn-sm waves-effect waves-light"><i class="fa fa-external-link" aria-hidden="true"></i> Staff Directory Page</a>
- 
-                            </div>
-                        </div>
-                    </div>
+              </li>
+              <li class="waves-effect waves-light">
+                <a href="#">Superintendent </a>
+              </li>
+              <li
+                class="hide-tablet hide-small-screens waves-effect waves-light"
+              >
+                <a href="#" title="Teach For MPS" target="_blank"
+                  >Teach For MPS</a
+                >
+              </li>
+              <li class="hide-tablet waves-effect waves-light">
+                <a href="#">Careers</a>
+              </li>
+
+              <li class="waves-effect waves-light staff-dir">
+                <a
+                  id="staff-dir"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#StaffDirModal"
+                  ><em
+                    class="hide-tablet fa fa-address-book-o fa-fw fa-2x"
+                    aria-hidden="true"
+                  ></em>
+                  Staff Directory
+                </a>
+              </li>
+            </ul>
+            <!--STAFF Directory Popup-->
+            <!-- Modal -->
+            <div
+              class="modal fade py-3"
+              id="StaffDirModal"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div
+                class="modal-dialog modal-lg modal-dialog-centered"
+                role="document"
+              >
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2 class="mb-1">Find a staff member</h2>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">×</span>
+                    </button>
+                  </div>
+                  <div class="modal-body my-1">
+                    <input
+                      type="textbox"
+                      id="txtSearchStaff"
+                      placeholder="Enter First or Last Name"
+                      style="background-color: transparent;border: none;    border-bottom-color: currentcolor;    border-bottom-style: none;    border-bottom-width: medium;border-bottom: 1px solid #bdbdbd;border-radius: 0;outline: 0;height: 2.1rem;width:70%;font-size: 1rem;box-shadow: none;box-sizing: content-box;-webkit-transition: all .3s;transition: all .3s;"
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-md btn-danger btSearchStaff waves-effect waves-light"
+                      data-dismiss="modal"
+                    >
+                      <i class="fa fa-search ml-2" aria-hidden="true"></i>
+                      Search
+                    </button>
+                  </div>
+                  <div class="modal-footer">
+                    <a
+                      href="#"
+                      type="button"
+                      class="btn btn-md btn-primary btn-sm waves-effect waves-light"
+                      ><i class="fa fa-external-link" aria-hidden="true"></i>
+                      Staff Directory Page</a
+                    >
+                  </div>
                 </div>
-                <!-- END Modal -->
-                <!--END STAFF Directory Popup-->
-            </nav>
+              </div>
+            </div>
+            <!-- END Modal -->
+            <!--END STAFF Directory Popup-->
+          </nav>
         </div>
-	<!-- /END NAV -->
-	</div>
-</header>
+        <!-- /END NAV -->
+      </div>
+    </header>
 
-
-
-<!-- your content goes here -->
- <script>function getQueryVariable(variable){
-        try{
-            q = location.search.substring(1);
-            v = q.split("&");
-            for( var i = 0; i < v.length; i++ ){
-                p = v[i].split("=");
-                if( p[0] == variable ){
-                    if( p[1].indexOf('%20') != -1 ){
-                        return decodeURIComponent(p[1]);
-                    }
-                    else{
-                        return p[1];
-                    }
-                }
-                else{
-                  return ""
-                    };
-            }
-        }
-        catch (e){
-            console.log(e);
-        }
-    }</script>
+    <!-- your content goes here -->
     <script>
-        var isChromium = window.chrome;
-var winNav = window.navigator;
-var vendorName = winNav.vendor;
-var isOpera = typeof window.opr !== "undefined";
-var isIEedge = winNav.userAgent.indexOf("Edge") > -1;
-var isIOSChrome = winNav.userAgent.match("CriOS");
-var isIE = /MSIE|Trident/.test(winNav.userAgent);
+      function getQueryVariable(variable) {
+        try {
+          q = location.search.substring(1);
+          v = q.split("&");
+          for (var i = 0; i < v.length; i++) {
+            p = v[i].split("=");
+            if (p[0] == variable) {
+              if (p[1].indexOf("%20") != -1) {
+                return decodeURIComponent(p[1]);
+              } else {
+                return p[1];
+              }
+            } else {
+              return "";
+            }
+          }
+        } catch (e) {
+          console.log(e);
+        }
+      }
+    </script>
+    <script>
+      var isChromium = window.chrome;
+      var winNav = window.navigator;
+      var vendorName = winNav.vendor;
+      var isOpera = typeof window.opr !== "undefined";
+      var isIEedge = winNav.userAgent.indexOf("Edge") > -1;
+      var isIOSChrome = winNav.userAgent.match("CriOS");
+      var isIE = /MSIE|Trident/.test(winNav.userAgent);
 
-if (isIOSChrome) {
-   // is Google Chrome on IOS
-} else if(
-  // isChromium !== null &&
-  // typeof isChromium !== "undefined" &&
-  // vendorName === "Google Inc." &&
-  isIE === true ||
-  isIEedge === true
-) {
-	var browser_warning = "We see you are using Internet Explorer to access myMPS Classroom (Canvas); Internet Explorer is no longer supported. Please use another browser such as Chrome, Safari, or Firefox.";
-   
-} else { 
-   var browser_warning = "";
-}
-</script>
-	
-<section id="top-section">
-<div class="container py-5" style="top:0;box-shadow:none;">
-	
-	<div class="row">
-		<div class="col-sm-12" align="center">
-			<font size="8" color="red"><script type="text/javascript">document.write(getQueryVariable("message")) </script></font>
+      if (isIOSChrome) {
+        // is Google Chrome on IOS
+      } else if (
+        // isChromium !== null &&
+        // typeof isChromium !== "undefined" &&
+        // vendorName === "Google Inc." &&
+        isIE === true ||
+        isIEedge === true
+      ) {
+        var browser_warning =
+          "We see you are using Internet Explorer to access myMPS Classroom (Canvas); Internet Explorer is no longer supported. Please use another browser such as Chrome, Safari, or Firefox.";
+      } else {
+        var browser_warning = "";
+      }
+    </script>
+
+    <section id="top-section">
+      <div class="container py-5" style="top:0;box-shadow:none;">
+        <div class="row">
+          <div class="col-sm-12" align="center">
+            <font size="8" color="red"
+              ><script type="text/javascript">
+                document.write(getQueryVariable("message"));
+              </script></font
+            >
+          </div>
         </div>
-	</div>
-     
-	<div class="row">
-		<div class="col-sm-12" align="center">
-			<font size="6" color="red"><script type="text/javascript">document.write(browser_warning) </script></font>
+
+        <div class="row">
+          <div class="col-sm-12" align="center">
+            <font size="6" color="red"
+              ><script type="text/javascript">
+                document.write(browser_warning);
+              </script></font
+            >
+          </div>
         </div>
-	</div>
-    
-	<div class="row my-4">
-		<div class="col-sm-12">
+
+        <div class="row my-4">
+          <div class="col-sm-12">
             <h1 class="text-center mt-0 mb-3">myMPS Classroom</h1>
-			<p class="text-center mb-0">A 22<sup>nd</sup> millennium terrible learning environment specifically designed to mess with the needs of staff, students, and gangstas of MPS and the community to give you the absolute worst experience!</p>
+            <p class="text-center mb-0">
+              A 22<sup>nd</sup> millennium terrible learning environment
+              specifically designed to mess with the needs of staff, students,
+              and gangstas of MPS and the community to give you the absolute
+              worst experience!
+            </p>
+          </div>
         </div>
-	</div>
-    
-    
-    	<div class="row mb-5">
-		<div class="col-sm-12">
-			<div class="py-2 section-callout-light text-center">
-				<h3 class="dark-gray-text">Welcome to MPS</h3> 
-                
-                <p class="lead">Please navigate to our home page. Click <a href="https://www.youtube.com/embed/dQw4w9WgXcQ" target="_blank" class="dark-gray-text font-weight-bold">here</a> to learn more!</p>
 
-			</div> 
-		</div>
-	</div>
-    
-    
-<div class="row">
-	<div class="col-md-4 col-sm-6">
-		
-		<!-- START CARD -->
-		<div class="card mb-5">
-		  
-		  <div class="card-body text-center">
-			<h2 class="card-title mb-3 mt-0" style="font-size:20px;">Workers</h2>
-			
-			  <div class="row">
-			  	<div class="col-md-6 col-sm-12"><a href="https://mcpsmd.instructure.com/login/saml/4" class="btn btn-lg btn-block btn-primary mb-1" >Sign in with Google</a></div>
-				  <div class="col-md-6 col-sm-12"><a href="https://www.youtube.com/embed/dQw4w9WgXcQ" class="btn btn-lg btn-block btn-primary mb-1">Sign in with Outlook</a></div>
-			  </div>
-		  </div>
-			<img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/1024px-SpongeBob_SquarePants_character.svg.png" class="card-img-top" alt="Staff/Students">
-		</div>
-		<!-- / END CARD -->
+        <div class="row mb-5">
+          <div class="col-sm-12">
+            <div class="py-2 section-callout-light text-center">
+              <h3 class="dark-gray-text">Welcome to MPS</h3>
 
-	</div>
-	<div class="col-md-4 col-sm-6">
-		
-		<!-- START CARD -->
-		<div class="card mb-5">
-		  
-		  <div class="card-body text-center">
-			  <h2 class="card-title mt-0" style="font-size:20px;"><strike>Test Subjects</strike><br>Students</h2>
-			<div class="col-md-6 col-sm-12"><a href="https://mcpsmd.instructure.com/login/saml/4" class="btn btn-lg btn-block btn-primary mb-1" >Express Login</a></div>
-			  <div class="col-md-6 col-sm-12"><a href="https://mcpsmd.instructure.com/login/saml/4" class="btn btn-lg btn-block btn-primary mb-1" >Ultra Fast Login</a></div>
-			<!-- <a href="https://mcpsmd.instructure.com/login/saml/4" target="_blank" class="btn btn-lg btn-primary" style="margin:12px 0;">Express Login</a> -->
-		  </div>
-			
-			<a href="https://mcpsmd.instructure.com/login/saml/4" target="_blank"><img src="https://www.urban.org/sites/default/files/shutterstock_365427041_crop.jpg" class="card-img-top" alt="Staff/Students"></a>
-		</div>
-		<!-- / END CARD -->
+              <p class="lead">
+                Please navigate to our home page. Click
+                <a
+                  href="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  target="_blank"
+                  class="dark-gray-text font-weight-bold"
+                  >here</a
+                >
+                to learn more!
+              </p>
+            </div>
+          </div>
+        </div>
 
-	</div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <!-- START CARD -->
+            <div class="card mb-5">
+              <div class="card-body text-center">
+                <h2 class="card-title mb-3 mt-0" style="font-size:20px;">
+                  Workers
+                </h2>
 
-	<div class="col-md-4 col-sm-6">
-		
-		<!-- START CARD -->
-		<div class="card mb-5">
-		  
-		  <div class="card-body text-center">
-			<h2 class="card-title mt-0" style="font-size:20px;">Guest</h2>
-			<a href="https://www.youtube.com/embed/dQw4w9WgXcQ" class="btn btn-lg btn-primary" style="margin:12px 0;">Slow Login</a>
-		  </div>
-			<img src="https://static.rootsrated.com/image/upload/s--ECHuHeXv--/t_rr_large_traditional/bz35tnhpmvbdn7qapoau.jpg" class="card-img-top" alt="Staff/Students">
-		</div>
-		<!-- / END CARD -->
-	</div>
-</div>
- 
+                <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                    <a
+                      href="https://mcpsmd.instructure.com/login/saml/4"
+                      class="btn btn-lg btn-block btn-primary mb-1"
+                      >Sign in with Google</a
+                    >
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <a
+                      href="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                      class="btn btn-lg btn-block btn-primary mb-1"
+                      >Sign in with Outlook</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/1024px-SpongeBob_SquarePants_character.svg.png"
+                class="card-img-top"
+                alt="Staff/Students"
+              />
+            </div>
+            <!-- / END CARD -->
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <!-- START CARD -->
+            <div class="card mb-5">
+              <div class="card-body text-center">
+                <h2 class="card-title mt-0" style="font-size:20px;">
+                  <strike>Test Subjects</strike><br/>Students
+                </h2>
+                <a href="https://mcpsmd.instructure.com/login/saml/4" target="_blank" class="btn btn-lg btn-primary" style="margin:12px 0;">Express Login</a>
+              </div>
 
-	
-	<hr class="my-5">
-	
-	<div class="row my-3">
-		<div class="col-sm-12">
-			<p class="text-center">For more information about myMPS Classroom, visit <a href="#" target="_blank">myMPS Classroom</a></p>
-		</div>
-	</div>
-	
-</div><!-- /END CONTAINER -->
-</section>
+              <a
+                href="https://mcpsmd.instructure.com/login/saml/4"
+                target="_blank"
+                ><img
+                  src="https://www.urban.org/sites/default/files/shutterstock_365427041_crop.jpg"
+                  class="card-img-top"
+                  alt="Staff/Students"
+              /></a>
+            </div>
+            <!-- / END CARD -->
+          </div>
 
-<!-- START FOOTER -->
-<footer class="box-pattern- p-0">
-  	<div class="view"><img src="https://www.montgomeryschoolsmd.org/global/master-pages/images/footer.jpg" class="img-fluid" alt="pictures of students"> <div class="mask flex-center waves-effect waves-light"></div></div>          
+          <div class="col-md-4 col-sm-6">
+            <!-- START CARD -->
+            <div class="card mb-5">
+              <div class="card-body text-center">
+                <h2 class="card-title mt-0" style="font-size:20px;">Guest</h2>
+                <a
+                  href="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  class="btn btn-lg btn-primary"
+                  style="margin:12px 0;"
+                  >Slow Login</a
+                >
+              </div>
+              <img
+                src="https://static.rootsrated.com/image/upload/s--ECHuHeXv--/t_rr_large_traditional/bz35tnhpmvbdn7qapoau.jpg"
+                class="card-img-top"
+                alt="Staff/Students"
+              />
+            </div>
+            <!-- / END CARD -->
+          </div>
+        </div>
 
-	<div class="container" style="top:0;box-shadow:none;">
-		<div class="row justify-content-center">
-			<div class="col-lg-5 py-4">
-					<h2 class="gray">GET IN TOUCH</h2>
-		<h1 class="small-title small red"><span class="red-border">Montgomery Public Schools</span></h1>
-					<p>Call: <a href="tel:240-420-6969" style="text-decoration:none;">240-420-6969</a> | No hablamos inglés: <a href="tel:240-769-4200" style="text-decoration:none;">240-769-4200</a><br>
-					E-mail: <a title="E-mail MPS" href="#">ASKMPS@mpsmd.org</a></p>
-			</div>	
-			<div class="col-lg-5 py-4">
-					<h2 class=" gray">GET IN TOUCH</h2>
-					<h1 class="small-title small red"><span class="red-border">Employee & Retiree Services Center</span></h1>
-					<p>Call: <a href="tel:301-420-6969" style="text-decoration:none;">301-420-6969</a> | E-mail: <a title="E-mail Employee & Retiree Services Center " href="#">ersc@mpsmd.org</a></p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col text-center">
-				<p class="clear">© 2022 <a href="https://dumbsheep1234.xyz" style="text-decoration:none;">DumbSheep123</a>. Not associated with Montgomery County Public Schools. DumbSheep123 claims no liability for any unapproved uses of this site. Unauthorized access or use may result in termination of your access, disciplinary action and/or civil or criminal penalties. By continuing to use this site you authorize DumbSheep123, Montgomery County Public Schools, or any other third-party approved by DumbSheep123. If you are accessing this website on an <dfn title="An approved electronic signature method is one that has been approved by the superintendent of schools and/or his designee, in accordance with this regulation and all applicable state and federal laws, and which specifies the form of the electronic signature, the systems and procedures used with the electronic signature, and the significance of the use of the electronic signature.">MCPS Approved Electronic Device</dfn> you have no right to privacy on this website. Thanks for your cooperation.</p>
-			
-				<div class="pb-2 smaller"> <a title="Privacy" href="#">Privacy</a> | <a title="Terms of Use" href="#" target="_self">Terms of Use</a> | <a title="Nondiscrimination" href="#">Nondiscrimination</a> | <a title="Accessibility" href="#">Accessibility</a> | <a title="Ethics" href="#">Ethics</a></div>
-			</div>
-		</div>
-	</div>
-</footer>
-	
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-<script src="https://www.montgomeryschoolsmd.org/global/master-pages/bootstrap-4.1.0/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://www.montgomeryschoolsmd.org/global/master-pages/js/mdb.min.js"></script> 
-<script src="https://www.montgomeryschoolsmd.org/global/master-pages/js/master.js"></script>	
-<script src="https://www.montgomeryschoolsmd.org/global/master-pages/js/jquery.sticky.js"></script>
-	
-</body>
+        <hr class="my-5" />
 
+        <div class="row my-3">
+          <div class="col-sm-12">
+            <p class="text-center">
+              For more information about myMPS Classroom, visit
+              <a href="#" target="_blank">myMPS Classroom</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- /END CONTAINER -->
+    </section>
+
+    <!-- START FOOTER -->
+    <footer class="box-pattern- p-0">
+      <div class="view">
+        <img
+          src="https://www.montgomeryschoolsmd.org/global/master-pages/images/footer.jpg"
+          class="img-fluid"
+          alt="pictures of students"
+        />
+        <div class="mask flex-center waves-effect waves-light"></div>
+      </div>
+
+      <div class="container" style="top:0;box-shadow:none;">
+        <div class="row justify-content-center">
+          <div class="col-lg-5 py-4">
+            <h2 class="gray">GET IN TOUCH</h2>
+            <h1 class="small-title small red">
+              <span class="red-border">Montgomery Public Schools</span>
+            </h1>
+            <p>
+              Call:
+              <a href="tel:240-420-6969" style="text-decoration:none;"
+                >240-420-6969</a
+              >
+              | No hablamos inglés:
+              <a href="tel:240-769-4200" style="text-decoration:none;"
+                >240-769-4200</a
+              ><br />
+              E-mail: <a title="E-mail MPS" href="#">ASKMPS@mpsmd.org</a>
+            </p>
+          </div>
+          <div class="col-lg-5 py-4">
+            <h2 class="gray">GET IN TOUCH</h2>
+            <h1 class="small-title small red">
+              <span class="red-border">Employee & Retiree Services Center</span>
+            </h1>
+            <p>
+              Call:
+              <a href="tel:301-420-6969" style="text-decoration:none;"
+                >301-420-6969</a
+              >
+              | E-mail:
+              <a title="E-mail Employee & Retiree Services Center " href="#"
+                >ersc@mpsmd.org</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <p class="clear">
+              © 2022
+              <a href="https://dumbsheep1234.xyz" style="text-decoration:none;"
+                >DumbSheep123</a
+              >. Not associated with Montgomery County Public Schools.
+              DumbSheep123 claims no liability for any unapproved uses of this
+              site. Unauthorized access or use may result in termination of your
+              access, disciplinary action and/or civil or criminal penalties. By
+              continuing to use this site you authorize DumbSheep123, Montgomery
+              County Public Schools, or any other third-party approved by
+              DumbSheep123. If you are accessing this website on an
+              <dfn
+                title="An approved electronic signature method is one that has been approved by the superintendent of schools and/or his designee, in accordance with this regulation and all applicable state and federal laws, and which specifies the form of the electronic signature, the systems and procedures used with the electronic signature, and the significance of the use of the electronic signature."
+                >MCPS Approved Electronic Device</dfn
+              >
+              you have no right to privacy on this website. Thanks for your
+              cooperation.
+            </p>
+
+            <div class="pb-2 smaller">
+              <a title="Privacy" href="#">Privacy</a> |
+              <a title="Terms of Use" href="#" target="_self">Terms of Use</a> |
+              <a title="Nondiscrimination" href="#">Nondiscrimination</a> |
+              <a title="Accessibility" href="#">Accessibility</a> |
+              <a title="Ethics" href="#">Ethics</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://www.montgomeryschoolsmd.org/global/master-pages/bootstrap-4.1.0/js/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://www.montgomeryschoolsmd.org/global/master-pages/js/mdb.min.js"
+    ></script>
+    <script src="https://www.montgomeryschoolsmd.org/global/master-pages/js/master.js"></script>
+    <script src="https://www.montgomeryschoolsmd.org/global/master-pages/js/jquery.sticky.js"></script>
+  </body>
 </html>
