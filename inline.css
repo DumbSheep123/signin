@@ -1,0 +1,59 @@
+.back {
+    background: #323e49;
+}
+
+.none {
+    display: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.txtdc {
+    text-decoration: none;
+}
+
+.cont-one {
+    top: 0;
+    box-shadow: none;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.margin2 {
+    margin: 12px 0;
+}
+
+.nav {
+    border-top: 0;
+}
+
+.txt-inp {
+    background-color: transparent;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 1px solid #bdbdbd;
+    border-radius: 0;
+    outline: 0;
+    height: 2.1rem;
+    width: 70%;
+    font-size: 1rem;
+    box-shadow: none;
+    box-sizing: content-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.divctr {
+    top: 0;
+    box-shadow: none;
+}
